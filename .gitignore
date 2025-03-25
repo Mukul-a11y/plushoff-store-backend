@@ -1,0 +1,40 @@
+# Medusa files
+dist
+.cache
+.DS_Store
+.env
+.env.*
+!.env.example
+uploads
+node_modules
+yarn-error.log
+
+# Editor files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tests
+coverage/
+.nyc_output/
+
+# Build
+build/
+dist/
+lib/
+
+# Database
+*.sqlite
+*.db
